@@ -1,0 +1,3 @@
+rootProject.name = 'Tripler'
+
+include 'backend', 'frontend'

@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: Tripler-db
+    restart: always
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --explicit_defaults_for_timestamp=1
+    ports:
+      - 3308:3306
+    environment:
+      - MYSQL_DATABASE=Tripler-db
+      - MYSQL_ROOT_PASSWORD=1234
+      - TZ=Asia/Seoul
+    volumes:
+      - ../mysql/init:/docker-entrypoint-initdb.d
+      - mysql_data:/var/lib/mysql  # 이 줄 추가
+volumes:
+  mysql_data:  # 파일 맨 아래에 추가
