@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tripler.iml" filepath="$PROJECT_DIR$/.idea/Tripler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/Tripler.backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/Tripler.backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/Tripler.backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/Tripler.backend.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/Tripler.backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/Tripler.backend.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frontend/Tripler.frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/frontend/Tripler.frontend.iml" />
+    </modules>
+  </component>
+</project>
