@@ -15,6 +15,7 @@ spring:
       enabled: true
       max-file-size: 300MB
       max-request-size: 500MB
+
 logging:
   level:
     root: info
@@ -24,4 +25,6 @@ springdoc:
     operations-sorter: method
   api-docs:
     path: /api-docs
+
+# 도커 컴포즈 파일 경로 지정
 
