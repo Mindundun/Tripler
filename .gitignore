@@ -7,6 +7,7 @@ backend/HELP.md
 !backend/gradle/wrapper/gradle-wrapper.jar
 !backend/**/src/main/**/build/
 !backend/**/src/test/**/build/
+build
 
 # ===============================
 # STS / Eclipse
