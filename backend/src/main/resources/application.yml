@@ -16,6 +16,10 @@ spring:
       max-file-size: 300MB
       max-request-size: 500MB
 
+  docker:
+    compose:
+      file: backend/docker-compose.yml
+
 logging:
   level:
     root: info
