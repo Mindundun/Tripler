@@ -51,13 +51,6 @@ backend/.nb-gradle/
 backend/.vscode/
 
 # ===============================
-# Config / Env
-# ===============================
-backend/*.end
-backend/*.yml
-backend/*.yaml
-
-# ===============================
 # Frontend
 # ===============================
 frontend/logs
